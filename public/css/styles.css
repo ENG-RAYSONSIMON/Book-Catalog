@@ -1,0 +1,27 @@
+h1{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 1;
+    text-align: center;
+    border: sienna;
+}
+h4{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer{
+    text-align: center;
+    font-size: smaller;
+}
+
+.view{
+    margin-left: 150px;
+}
+
+li{
+    font-size: large;
+}
+
+label{
+    font-size: large;
+}

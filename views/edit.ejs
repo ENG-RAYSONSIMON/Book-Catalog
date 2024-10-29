@@ -1,0 +1,14 @@
+<%- include("partials/header"); -%>
+    <h1>Edit Book</h1>
+   
+      <form action="/edit/<%=read._id%>" method="post" class="my-4">
+<label for="title" >Book Title:</label>
+<input type="text" name="title" value="<%=read.title%>" class="form-control" autocomplete="off" required>
+<label for="author">Author:</label>
+<input type="text" name="author" value="<%=read.author %>" class="form-control" autocomplete="off" required>
+<label for="genre">Genre:</label>
+<input type="text" name="genre" value="<%=read.genre%>" autocomplete="off" class="form-control">
+<button class="btn btn-warning my-3" type="submit">Publish</button>
+</form>
+
+    <%- include("partials/footer"); -%>
